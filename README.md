@@ -97,4 +97,4 @@ npm run start
 - LinkedIn: linkedin.com/in/sumit-shrivastava
 - GitHub: @sumitshrivastava-tech
 
-<p align="center"><img src="./public/portfolio-preview.png" width="700" alt="Portfolio Preview"></p>
+![Portfolio Preview](./public/portfolio-preview.png)
