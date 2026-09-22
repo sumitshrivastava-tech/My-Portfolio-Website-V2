@@ -51,7 +51,6 @@ This repository houses the second iteration (V2) of my portfolio. The focus of t
 │   ├── Footer.tsx
 │   ├── Hero.tsx
 │   ├── Services.tsx
-│   ├── SubpageNav.tsx
 │   └── TechStack.tsx
 ├── public/                # Static assets & profile imagery
 ├── tailwind.config.ts     # Tailwind design tokens & plugin setup
