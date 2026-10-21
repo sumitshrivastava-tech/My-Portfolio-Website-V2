@@ -29,27 +29,27 @@ export default function About() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-5 mt-4">
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Artificial Intelligence</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Artificial Intelligence</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">Gen AI, RAG, Agentic AI, LLMs, Machine Learning</p>
             </div>
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Backend Engineering</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Backend Engineering</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">Python, FastAPI, Django, Flask, RESTful APIs</p>
             </div>
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Data & Analytics</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Data & Analytics</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">Power BI, Tableau, Looker Studio, Excel, Pandas</p>
             </div>
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Cloud & DevOps</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Cloud & DevOps</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">AWS, Azure, Docker, Kubernetes, CI/CD Pipelines</p>
             </div>
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Databases</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Databases</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">SQL, PostgreSQL, MongoDB, Redis, Pinecone</p>
             </div>
             <div className="border-l-4 border-black pl-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-r-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <h4 className="text-lg md:text-xl font-bold text-black">Core Practices</h4>
+              <h3 className="text-lg md:text-xl font-bold text-black">Core Practices</h4>
               <p className="text-sm mt-1.5 text-gray-600 leading-snug">System Design, Data Structures, Open Source</p>
             </div>
           </div>
