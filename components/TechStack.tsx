@@ -10,8 +10,11 @@ export default function TechStack() {
 
   return (
     <section className="w-full bg-white py-12 md:py-16 border-t border-gray-200 overflow-hidden flex flex-col items-center">
-      <p className="text-xs md:text-sm font-bold text-gray-400 uppercase tracking-widest mb-8 text-center px-4">
+      {/* <p className="text-xs md:text-sm font-bold text-gray-400 uppercase tracking-widest mb-8 text-center px-4">
         Powered by Industry-Standard Infrastructure
+      </p> */}
+      <p className="text-xs md:text-sm font-bold text-gray-600 uppercase tracking-widest mb-8">
+        POWERED BY INDUSTRY-STANDARD INFRASTRUCTURE
       </p>
       
       <div className="relative w-full max-w-[1400px] flex overflow-x-hidden">
