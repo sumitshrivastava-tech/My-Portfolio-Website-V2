@@ -27,21 +27,42 @@ export default function Research() {
           {/* Paper 1 */}
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
             
-            {/* Meta Tags & DOI */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+            {/* Meta Tags & Badges */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
               <div className="flex items-center gap-4">
                 <span className="bg-black text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider w-max">Published</span>
                 <span className="text-sm font-semibold text-gray-500">2026</span>
               </div>
-              <Link href="https://zenodo.org/records/23499684" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                <Image 
-                  src="https://zenodo.org/badge/DOI/10.5281/zenodo.23499684.svg" 
-                  alt="DOI Badge" 
-                  width={160} 
-                  height={30} 
-                  unoptimized
-                />
-              </Link>
+              
+              {/* Badges (Colab & DOI) */}
+              <div className="flex items-center gap-3">
+                <Link 
+                  href="https://colab.research.google.com/github/sumitshrivastava-tech/SBLA-Cortical/blob/main/SBLA_Cortical_v09_Demo.ipynb" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:opacity-80 transition-opacity flex items-center"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img 
+                    src="https://colab.research.google.com/assets/colab-badge.svg" 
+                    alt="Open In Colab" 
+                    className="h-[24px] w-auto"
+                  />
+                </Link>
+                <Link 
+                  href="https://doi.org/10.5281/zenodo.23499684" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:opacity-80 transition-opacity flex items-center"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img 
+                    src="https://zenodo.org/badge/DOI/10.5281/zenodo.23499684.svg" 
+                    alt="DOI Badge" 
+                    className="h-[24px] w-auto"
+                  />
+                </Link>
+              </div>
             </div>
             
             {/* Title */}
