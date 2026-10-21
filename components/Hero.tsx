@@ -90,7 +90,7 @@ export default function Hero() {
               className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <FaLinkedinIn className="w-5 h-5" />
             </Link>
-            <Link href="https://x.com/sumitshri_" className="w-12 h-12 bg-[#E5E5E5] target="_blank" aria-label="Visit my X profile" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
+            <Link href="https://x.com/sumitshri_" target="_blank" aria-label="Visit my X profile" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <FaXTwitter className="w-5 h-5" />
             </Link>
           </div>
