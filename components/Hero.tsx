@@ -70,7 +70,8 @@ export default function Hero() {
           <h1 className="text-[3.5rem] leading-[1.1] sm:text-6xl md:text-[5.5rem] font-extrabold text-black tracking-tight md:leading-[1.05] mb-4 md:mb-5">
             Sumit <br className="hidden md:block"/> Shrivastava
           </h1>
-          <p className="text-base md:text-lg text-gray-700 md:text-gray-500 font-semibold max-w-[450px] leading-relaxed mb-8">
+          {/* Change md:text-gray-500 to md:text-gray-700 */}
+          <p className="text-base md:text-lg text-gray-700 md:text-gray-700 font-semibold max-w-[450px] leading-relaxed mb-8">
             Remote Data & AI Consultant | Building Intelligent Cloud and Backend Solutions for clients worldwide.
           </p>
 
