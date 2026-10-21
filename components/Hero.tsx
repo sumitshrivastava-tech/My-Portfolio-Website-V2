@@ -41,11 +41,15 @@ export default function Hero() {
         </div>
 
         <div className="lg:hidden z-50">
-          <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black p-2 focus:outline-none">
+          <button 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+            aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+            className="text-black p-2 focus:outline-none"
+          >
             {isMobileMenuOpen ? <FaXmark className="w-8 h-8" /> : <FaBars className="w-8 h-8" />}
           </button>
         </div>
-      </nav>
+        </nav>
 
       {/* Mobile Full-Screen Menu Overlay */}
       <div className={`fixed inset-0 bg-white z-40 flex flex-col items-center justify-center gap-8 text-2xl font-black transition-transform duration-300 lg:hidden ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
