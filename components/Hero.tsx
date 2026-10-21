@@ -83,13 +83,14 @@ export default function Hero() {
             <Link href="https://drive.google.com/file/d/1scmAQ9k-ZOee6rveKvGb81uTgUCwppgU/view?usp=sharing" target="_blank" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <span className="font-bold text-lg md:text-xl">CV</span>
             </Link>
-            <Link href="https://github.com/sumitshrivastava-tech" target="_blank" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
+            <Link href="https://github.com/sumitshrivastava-tech" target="_blank" aria-label="Visit my GitHub profile" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <FaGithub className="w-5 h-5" />
             </Link>
-            <Link href="https://www.linkedin.com/in/sumitshrivastava-tech" target="_blank" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
+            <Link href="https://www.linkedin.com/in/sumitshrivastava-tech" target="_blank" aria-label="Visit my LinkedIn profile"
+              className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <FaLinkedinIn className="w-5 h-5" />
             </Link>
-            <Link href="#" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
+            <Link href="https://x.com/sumitshri_" className="w-12 h-12 bg-[#E5E5E5] target="_blank" aria-label="Visit my X profile" className="w-12 h-12 bg-[#E5E5E5] md:bg-white rounded-full shadow-md border border-gray-300 flex items-center justify-center text-black hover:-translate-y-1 transition-all">
               <FaXTwitter className="w-5 h-5" />
             </Link>
           </div>
